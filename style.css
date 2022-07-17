@@ -517,7 +517,7 @@ span.git {
     z-index: 100;
     margin-top: 19%;
     transition: 0.5s all ease-in-out;
-}
+  }
   p.project_info_about {
     max-width: 71%;
     font-size: small;
@@ -525,14 +525,29 @@ span.git {
     margin: 35px -61px;
     line-height: 1.8;
     color: wheat;
-}
+  }
   span.git {
     position: relative;
-    left: -33.5%;
+    left: -13.5%;
     font-size: x-small;
-    top: 6%;
+    top: -2%;
     font-family: cursive;
     color: wheat;
-}
-  
+  }
+  span.grade {
+    position: relative;
+    left: 24%;
+    font-family: cursive;
+    color: wheat;
+    top: -7%;
+    font-size: x-small;
+  }
+  span.project_info_title {
+    text-align: center;
+    font-size: x-large;
+    font-family: "Ubuntu Mono";
+    color: white;
+    position: relative;
+    left: 17%;
+  }
 }
