@@ -505,10 +505,10 @@ span.git {
     border-radius: 30px;
   }
   .project_info {
-    width: 79%;
-    height: 52vh;
-    border: 2px solid dodgerblue;
-    position: fixed;
+    width: 79% !important;
+    height: 52vh !important;
+    border: 2px solid dodgerblue !important;
+    position: fixed !important;
     background-color: #262626;
     transform: translateX(1200%);
     justify-content: center;
@@ -519,7 +519,7 @@ span.git {
     transition: 0.5s all ease-in-out;
   }
   p.project_info_about {
-    max-width: 71%;
+    max-width: 71% !important;
     font-size: small;
     transform: translateX(50%);
     margin: 35px -61px;
@@ -527,7 +527,7 @@ span.git {
     color: wheat;
   }
   span.git {
-    position: relative;
+    position: relative !important;
     left: -13.5%;
     font-size: x-small;
     top: -2%;
@@ -535,7 +535,7 @@ span.git {
     color: wheat;
   }
   span.grade {
-    position: relative;
+    position: relative!important;
     left: 24%;
     font-family: cursive;
     color: wheat;
