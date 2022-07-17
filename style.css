@@ -504,4 +504,26 @@ span.git {
     margin: 28px 46px;
     border-radius: 30px;
   }
+  .project_info {
+    width: 86%;
+    height: 60vh;
+    border: 2px solid dodgerblue;
+    position: fixed;
+    background-color: #262626;
+    transform: translateX(1200%);
+    justify-content: center;
+    top: 0;
+    z-index: 100;
+    margin-top: 19%;
+    left: -34%;
+    transition: 0.5s all ease-in-out;
+}
+  span.git {
+    position: relative;
+    left: -28.5%;
+    top: 6%;
+    font-size: small;
+    font-family: cursive;
+    color: wheat;
+}
 }
