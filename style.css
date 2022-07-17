@@ -505,24 +505,32 @@ span.git {
     border-radius: 30px;
   }
   .project_info {
-    width: 86%;
-    height: 60vh;
+    width: 79%;
+    height: 52vh;
     border: 2px solid dodgerblue;
     position: fixed;
     background-color: #262626;
     transform: translateX(1200%);
     justify-content: center;
     top: 0;
+    left: -25%;
     z-index: 100;
     margin-top: 19%;
-    left: -34%;
     transition: 0.5s all ease-in-out;
+}
+  p.project_info_about {
+    max-width: 71%;
+    font-size: small;
+    transform: translateX(50%);
+    margin: 35px -61px;
+    line-height: 1.8;
+    color: wheat;
 }
   span.git {
     position: relative;
-    left: -28.5%;
+    left: -33.5%;
+    font-size: x-small;
     top: 6%;
-    font-size: small;
     font-family: cursive;
     color: wheat;
 }
