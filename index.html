@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script>
+    function myFunction() {
+      $('.ring-container').css('display', 'none');
+    }
+
+  </script>
+</head>
+
+<body onload="myFunction()">
+  <div class="ring-container">
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <span class="loading">Loading....</span>
+  </div>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-branding">
+        <ul class="nav-menu">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <h1>SHUBHAM MAINI</h1>
+
+      <div class="logo">
+        <i class="fa fa-github"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <div class="buttons">
+        <button>
+          Hire Me
+        </button>
+        <button>
+          Resume
+        </button>
+      </div>
+    </div>
+  </section>
+  <main>
+    <div class="main">
+      <h2>ABOUT</h2>
+      <div class="flex">
+        <div class="left">
+
+        </div>
+        <div class="right">
+          <p class="info">You are reading a profile of a passionate software developer with strong analytical and
+            critical
+            skills, who runs behind knowledge rather than money. I had completed my Master's in Australia from a reputed
+            University with unique and sound technical knowledge.
+
+            I worked on advanced technologies from my past experience which boost my confidence and gain my knowledge in
+            other areas like agile methodologies. I am keen to work on a new tech stack using React, React Native, and
+            Node JS. Mongo DB</p>
+        </div>
+      </div>
+  </main>
+  <project>
+
+    <div class="cards">
+      <h3>PROJECTS</h3>
+      <div class="box">
+        <img src="./Picture1.jpg" alt="">
+
+        <span class="hybrid_app">Emergency Management System</span>
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+
+
+
+    </div>
+    </div>
+  </project>
+  <!-- sticky popup -->
+  <span class="cf_trigger">Get In Touch</span>
+  <div class="cf_box">
+    <span class="cf_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3>Get In Touch</h3>
+    <form action="#">
+      <div>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Phone">
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <input type="submit" name="">
+      </div>
+    </form>
+  </div>
+
+  <!-- sticky popup end -->
+
+  <!-- project information -->
+
+  <div class="project_info">
+    <span class="project_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+    <span class="project_info_title">University Project</span>
+    <p class="project_info_about">The project is related to the Emergency Mobile Application named as ‘Emergency
+      Management System’, Admin and
+      Users can
+      access this mobile application by valid credentials and it allows the user to save emergency contact information,
+      insurance policy detail, and Blood Group information. The developed emergency Application has image recognition
+      which
+      means if anyone scans the face of the user then prior information will be sent to the emergency contact so that
+      they can
+      arrange a medical facility as quickly as possible.</p>
+    <span class="grade">Grade : High Distinction</span>
+    <span class="git">Github : <a href="https://github.com/Emergency-app123">Click Here to View Project</a> </span>
+  </div>
+  <!-- project Information end -->
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
