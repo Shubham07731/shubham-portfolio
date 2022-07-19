@@ -506,7 +506,7 @@ span.git {
   }
   .project_info {
     width: 79% !important;
-    height: 52vh !important;
+    height: auto !important;
     border: 2px solid dodgerblue !important;
     position: fixed !important;
     background-color: #262626;
