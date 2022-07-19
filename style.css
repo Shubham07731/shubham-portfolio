@@ -520,7 +520,7 @@ span.git {
   }
   p.project_info_about {
     max-width: 71% !important;
-    font-size: xx-small;
+    font-size: xx-small !important;
     transform: translateX(50%);
     margin: 35px -61px;
     line-height: 1.8;
