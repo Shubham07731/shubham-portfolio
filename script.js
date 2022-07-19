@@ -1,10 +1,13 @@
 const hamburger = document.querySelector(".hamburger");
-
+const contact = document.querySelector(".contact");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
+});
+contact.addEventListener("click", () => {
+  $(".cf_box").addClass("active");
 });
 
 $(".cf_trigger").click(function (event) {
