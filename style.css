@@ -520,12 +520,12 @@ span.git {
   }
   p.project_info_about {
     max-width: 71% !important;
-    font-size: small;
+    font-size: xx-small;
     transform: translateX(50%);
     margin: 35px -61px;
     line-height: 1.8;
     color: wheat;
-  }
+}
   span.git {
     position: relative !important;
     left: -13.5%;
