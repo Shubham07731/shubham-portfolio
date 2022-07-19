@@ -8,6 +8,7 @@ hamburger.addEventListener("click", () => {
 });
 contact.addEventListener("click", () => {
   $(".cf_box").addClass("active");
+  navMenu.classList.toggle("active");
 });
 
 $(".cf_trigger").click(function (event) {
