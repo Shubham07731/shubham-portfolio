@@ -424,10 +424,11 @@ p.project_info_about {
   color: wheat;
 }
 span.grade {
-  position: relative;
-  left: 24%;
-  font-family: cursive;
-  color: wheat;
+    position: relative;
+    left: 24%;
+    top: -8%;
+    font-family: cursive;
+    color: wheat;
 }
 span.git {
   position: relative;
