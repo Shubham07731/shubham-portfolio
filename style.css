@@ -194,7 +194,7 @@ section {
 }
 p.info {
   width: 64%;
-  margin: 120px 212px;
+      margin: -9px 212px;
   letter-spacing: 1.5px;
   line-height: 2.5;
   font-family: "Ubuntu Mono";
