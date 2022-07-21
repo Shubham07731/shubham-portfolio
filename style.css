@@ -431,11 +431,11 @@ span.grade {
     color: wheat;
 }
 span.git {
-  position: relative;
-  left: 6.5%;
-  top: 5%;
-  font-family: cursive;
-  color: wheat;
+    position: relative;
+    left: -0.5%;
+    top: -2%;
+    font-family: cursive;
+    color: wheat;
 }
 
 @media (max-width: 768px) {
