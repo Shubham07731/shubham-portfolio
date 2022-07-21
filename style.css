@@ -378,7 +378,7 @@ input[type="submit"]:hover {
   justify-content: center;
   top: 0;
   z-index: 100;
-  margin-top: 19%;
+  margin-top: 9%;
   transition: 0.5s all ease-in-out;
 }
 .project_close2,
